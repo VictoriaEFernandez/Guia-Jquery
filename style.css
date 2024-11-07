@@ -1,0 +1,101 @@
+.noticia{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/* Estilo para las tablas */
+#tabla1, #tabla2 {
+    margin: 20px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+
+#tabla1 td, #tabla2 td {
+    padding: 10px;
+    border: 1px solid black;
+    }
+/* Estilo para el hipervínculo */
+#miHipervinculo {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid black;
+    color: blue;
+    }
+/* Estilo para el encabezado de la tabla */
+.estilo-thead {
+    background-color: #28a745; /* Verde */
+    color: white; /* Texto en blanco */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo para el cuerpo de la tabla */
+.estilo-tbody {
+    background-color: #f1f1f1; /* Gris claro */
+    color: #333; /* Texto en gris oscuro */
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo de la fuente dinámica */
+.font-size-small {
+    font-size: 12px;
+}
+
+.font-size-large {
+    font-size: 20px;
+}
+/*Tabla y td*/
+table {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+/*Ejercicio 13*/
+#div-movimiento {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+/*Ejercicio 14*/
+#boton-verde, #boton-azul {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: rgb(175, 72, 72);
+}
+/*Ejercicio 15*/
+#mi-div {
+    width: 800px;
+    height: 70px;
+    background-color: lightblue;
+    margin: 20px 0;
+    transition: all 0.3s ease; /* Para suavizar la transición del tamaño */
+}
+
+/*Ejercicio 16*/
+input[type="text"] {
+    color: blue;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    color: red;
+}
